@@ -24,6 +24,8 @@ public class Curso extends PersistenceEntity implements Serializable{
     
     @Column(name = "descricao", length = 2000)
     private String descricao;
+    
+    //commit
 
     // caminho para a imagem (pode ser caminho absoluto ou relativo ao resources)
     private String imagemPath;
